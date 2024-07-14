@@ -1,0 +1,16 @@
+{
+  "name": "Suppress pop-ups for Qiita",
+  "description": "Suppresses several pop-up displays on the Qiita website.",
+  "version": "1.0",
+  "manifest_version": 3,
+  "content_scripts": [
+    {
+      "matches": [
+        "https://qiita.com/*"
+      ],
+      "js": [
+        "content-script.js"
+      ]
+    }
+  ]
+}

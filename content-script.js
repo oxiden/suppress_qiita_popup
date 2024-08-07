@@ -10,5 +10,5 @@ async function hideElementsByClassNames(classNames) {
     });
 }
 
-var classNamesToHide = ['style-1gtaew4', 'style-1y0vgst'];
+var classNamesToHide = ['style-1gtaew4', 'style-1y0vgst', 'style-5h0vi8'];
 hideElementsByClassNames(classNamesToHide);
